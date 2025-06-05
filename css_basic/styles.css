@@ -1,0 +1,26 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(60, 39%, 94%);
+    border: aliceblue;
+}
+.header {
+    background-color: hsl(60, 39%, 94%);
+    border: 1px solid hsl(60, 39%, 94%);
+    padding: 10px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    
+}
+.article {
+    flex: 2;
+    overflow-y: auto;
+}
+.aside {
+    flex : 1;
+    overflow-y: auto;
+}
